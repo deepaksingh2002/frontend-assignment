@@ -1,6 +1,6 @@
 {
   "name": "muit",
-  "homepage": "https://deepaksingh2002.github.io/frontend/",
+  "homepage": "https://deepaksingh2002.github.io/frontend-assignment/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prepdeploy": "npm run build",
-    "dploy": "npm run prepdeploy && gh-pages -d dist"
+    "dploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",

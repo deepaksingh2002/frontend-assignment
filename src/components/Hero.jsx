@@ -1,12 +1,11 @@
 import React from 'react'
-
+import heroImg from '../assets/hero-muit-noida.webp';
 const Hero = () => {
   return (
     <div
       className="w-full min-h-screen flex items-center justify-center text-white"
       style={{
-        backgroundImage:
-          "linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7)), url('../../assets/hero-muit-noida.webp')",
+        backgroundImage: `linear-gradient(rgba(8,0,58,0.7), rgba(8,0,58,0.7)), url(${heroImg})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
